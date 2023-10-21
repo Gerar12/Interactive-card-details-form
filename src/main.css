@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input::placeholder {
+  color: rgb(207, 207, 207);
+}
+
+.invisible {
+  width: 900px;
+  height: 900px;
+  color: red;
+  background-color: rgb(128, 19, 19);
+}

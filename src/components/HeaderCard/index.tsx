@@ -1,8 +1,6 @@
 import { useContext } from "react";
 import { FormContext } from "../../Context/ContextApp";
 
-import "./index.css";
-
 const HeaderCard = () => {
   const context = useContext(FormContext);
 

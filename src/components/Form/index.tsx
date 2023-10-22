@@ -2,8 +2,6 @@ import { useContext } from "react";
 import { FormContext } from "../../Context/ContextApp";
 import ClipLoader from "react-spinners/ClipLoader";
 
-import "./index.css";
-
 const Form = () => {
   function formatCardNumber(value: string): string {
     // Elimina todos los caracteres que no sean dígitos
